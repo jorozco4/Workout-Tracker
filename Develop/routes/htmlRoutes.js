@@ -1,7 +1,7 @@
 const express = require("express");
-const path = rquire("path");
+const path = require("path");
 
-module.export = funciton (app) {
+module.exports = funciton (app) {
     app.get("/", (req,res)=> {
         res.sendFile(path.join(_dirname,"../public/index.html"));
     });

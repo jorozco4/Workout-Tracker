@@ -1,12 +1,10 @@
-const workout = require("../models/workout");
+const Workout = require("../models/workout");
 const express = require("express");
-const router = express.Router("express");
-const mongoose = require("mongoose");
-const Workout = require("../../models/workout");
+const router = express.Router();
+// const mongoose = require("mongoose");
 
 router.post("/api/workouts", ({ body }, res) => {
-  workout
-    .create(body)
+  Workout.create(body)
     .then((dbWorkout) => {
       res.json(dbWorkout);
     })
