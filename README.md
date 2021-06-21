@@ -4,13 +4,18 @@
 
 Workout-Tracker
 
+# ScreenShots
+
+![image](https://user-images.githubusercontent.com/61666288/122693920-c2393600-d209-11eb-9c09-2e0c0296f172.png)
+![image](https://user-images.githubusercontent.com/61666288/122693981-f280d480-d209-11eb-9cdf-f845e3125843.png)
+
 ## Description
 
 - As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
 ## Installation
 
-This app is installed by using heroku, create a localhost, "server.js,Mongo,
+This app is installed by using heroku, create a localhost, "server.js, & Mongo
 
 ## Contact Info
 
